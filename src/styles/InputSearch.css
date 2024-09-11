@@ -1,0 +1,27 @@
+.search-container {
+  position: relative;
+  width: 250px; /* Puedes ajustar el ancho según necesites */
+}
+
+.search-input {
+  width: 100%;
+  padding: 9px; /* Añade espacio para la lupa */
+  border-radius: 9px; /* Bordes redondeados */
+  border: 1px solid #ccc; /* Borde del campo de búsqueda */
+  font-size: 16px;
+}
+
+.search-button {
+  position: absolute;
+  right: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}

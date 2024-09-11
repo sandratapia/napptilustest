@@ -1,0 +1,29 @@
+.loaderContainer {
+  position: fixed;
+  background-color: #5558;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes Blinker {
+  0% {
+    opacity: 1; /* Cambiado de 100% a 1 porque opacity se define de 0 a 1 */
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1; /* Cambiado de 100% a 1 porque opacity se define de 0 a 1 */
+  }
+}
+
+.loaderContainer img {
+  animation: Blinker infinite 1s linear;
+}
