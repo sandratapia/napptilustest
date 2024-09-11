@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+}
+
+.title {
+  height: 60px;
+  color: black;
+  display: flex;
+  align-items: center;
+  background-color: #9d9c9c;
+  padding: 0 200px;
+  font-size: 14px;
+}
+
+.title__logo {
+  height: 35px;
+  margin-right: 20px;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    padding: 0 50px;
+    font-size: 10px;
+  }
+}

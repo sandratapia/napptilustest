@@ -1,0 +1,36 @@
+.oompa__details {
+  display: flex;
+  margin-top: 20px;
+  margin: 60px 200px 30px 200px;
+}
+
+.oompa__details img {
+  width: 450px;
+  height: 280px;
+}
+
+.oompa__details__info {
+  margin-left: 30px;
+}
+
+.oompa__details__info h2 {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+}
+
+.oompa__details__info p {
+  font-size: 15px;
+  margin: 8px 0;
+  color: #717070;
+}
+
+.oompa__details__info div {
+  margin: 20px 0;
+  color: black;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.oompa__details__info div h1 {
+  font-size: 14px;
+}
